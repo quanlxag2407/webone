@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Giới thiệu</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<table	border="0" width="900" align="center" bgcolor="SeaShell">
+			<tr>
+				<td height="120" colspan="3" background="img/banner.jpg"></td>
+			</tr>
+			<tr>
+				<!-- cộc Trái -->
+				<td width="20%" valign="top">
+					<h3>Nội Dung Chính</h3>
+						<ul>
+							<li><a href="index.html">Giới Thiệu</a></li>
+							<li><a href="hinhanh.html">Hình ảnh Cá Nhân</a></li>
+							<li><a href="lienhe.html">Liên Hệ</a></li>
+						</ul>
+						
+						<h3>Góc Thư Giãn</h3>
+						<ul>
+							<li><a href="trangtho.html">Trang thơ chọn lọc</a></li>
+							<li><a href="boivui.html">Bói vui các kiểu</a></li>
+							<li><a href="trochoi.html">Trò choi & nhạc flash</a></li>
+							<li><a href="vuicuoi.html">Siêu thị cười</a></li>
+						</ul>
+						
+						<h3>Liên Kết ngoài</h3>
+						<ul>
+							<li><a href="http://regis.agu.edu.vn" target="_blank">Đăng ký học phần</a></li>
+							<li><a href="http://mail.agu.edu.vn"	target="_blank">Mail Agu</a></li>
+							<li><a href="http://enew.agu.edu.vn" target="_blank">Báo sinh viên điện tử</a></li>
+							<li><a href="http://www.google.com.vn" target="_blank">Tìm Kiếm Google</a></li>
+						</ul>
+				</td>
+				<!-- cột giửa-->
+				<td width="60%" valign="top">
+					<script type="text/javascript" src="scripts/boivui.js"></script>
+
+					<h3>Bói tình yêu</h3>
+					<form name="box" action="javascript:BoiTinhYeu(this.txtTenBan.value, this.txtTenNguoiAy.value);">
+						<table width="100%" border="0">
+							<tr>
+								<td>Tên bạn:</td>
+								<td><input type="text" id="txtTenBan" name="txtTenBan" /></td>
+								<td>Check vào nếu bạn là nữ <input type="checkbox" id="isFemale" name="isFemale" value="on" /></td>
+							</tr>
+							<tr>
+								<td>Tên người ấy:</td>
+								<td colspan="2"><input type="text" id="txtTenNguoiAy" name="txtTenNguoiAy" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2">
+									<input type="submit" value="Xem Bói" />
+									<input type="reset" onclick="javascript:window.location='boivui.html'" value="Xem Lại" />
+								</td>
+							</tr>
+						</table>
+					</form>
+					<div id="KetQua">
+						<noscript>Tuy nhiên trình duyệt của thí chủ không cho phép chạy JavaScript, nên ta không thể bói cho thí chủ được. Thông cảm cho ta nhé! Đổi trình duyệt mới đi rồi quay lại đây. Nam mô a di đà phật...</noscript>
+					</div>
+				</td>
+				<!-- cột phải -->
+				<td	width="20%" valign="top">
+					<h3>Quảng Cáo</h3>
+						<img src ="img/quangcao1.jpg" width="180">
+						<img src="img/quangcao2.jpg"width="180">
+				
+				</td>
+			</tr>
+			<tr>
+				<td height="50" colspan="3" bgcolor="PowderBlue" align="center"><b>Bản Quyền &copy; 2021 Bởi Nguyễn Hoàng Quân. Email:<a href="mailto:nguyenhoangquan0965@gmail.com">nguyenhoangquan0965@gmail.com</b></a></td>			
+			</tr>
+		</table>
+	</body>
+</html>
